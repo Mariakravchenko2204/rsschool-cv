@@ -1,8 +1,70 @@
 body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
-  }
+    background-color: white;
+}
+
+header {
+    background-color: lightgray;
+}
+
+body {
+    font-family: "Lora", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style-type: none;
+    margin: 1ex;
+    padding: 8px;
+}
+.nav-item a {
+    color: #030225;
+    padding: 0 20px;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.nav-item a:hover {
+    color: #4d2323;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.simg {
+    border-radius: 8px;
+
+}
+
+/* .main-container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.column1 {
+    float: left;
+    width: 30%;
+    position: relative;
+    text-align: center;
+}
+
+.column2 {
+    float: left;
+    width: 70%;
+    position: relative;
+    text-align: left;
+}
+
+i {
+    margin-right: 10px;
+}
