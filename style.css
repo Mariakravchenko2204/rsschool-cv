@@ -1,24 +1,30 @@
 body {
-    background-color: white;
+    background-color: rgb(243, 240, 245);
 }
 
 header {
-    background-color: lightgray;
+    background-color: rgba(125, 77, 155, 0.438);
 }
 
 body {
-    font-family: "Lora", serif;
+    font-family: "Titillium Web", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.5;
 }
-.container {
-    max-width: 1440px;
-    margin: 0 auto;
+
+footer {
+    background-color: rgba(125, 77, 155, 0.438);
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    font-size: 22px;
+    align-items: center;
 }
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -26,13 +32,16 @@ body {
     list-style-type: none;
     margin: 1ex;
     padding: 8px;
+    font-size: 22px;
 }
+
 .nav-item a {
     color: #030225;
     padding: 0 20px;
     text-decoration: none;
     transition: color 0.5s;
 }
+
 .nav-item a:hover {
     color: #4d2323;
 }
@@ -41,15 +50,10 @@ html {
     scroll-behavior: smooth;
 }
 
-.simg {
+img {
     border-radius: 8px;
-
+    width: 80%;
 }
-
-/* .main-container {
-    display: flex;
-    flex-wrap: wrap;
-} */
 
 .column1 {
     float: left;
@@ -67,4 +71,22 @@ html {
 
 i {
     margin-right: 10px;
+}
+
+
+.logo {
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin-left: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+
+.created {
+    position: relative;
+    width: 200px;
+    height: auto;
+    display: inline-block;
+    font-size: 40px;
 }
