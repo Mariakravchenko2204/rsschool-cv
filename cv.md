@@ -30,7 +30,7 @@ function multiply(a, b){
 
 ## Languages
 * Russian - native
-* English - advance 
+* English - advanced 
 
 
 
