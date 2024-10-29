@@ -19,20 +19,15 @@ function multiply(a, b){
 }
 ```
 ## Experience
-* 07/2022 - Present **FDM Group** Test Data Analyst 
+* 07/2022 - Present **FDM Group** Test Data Analyst
 * 02/2021 - 04/2022 **Promsvyazbank** Leading Engineer, Performance Engineer
 * 09/2020 – 02/2022 **Sberbank** IT-Engineer, Performance Engineer
 * 05/2020 – 09/2020 **Performance Lab** Test Engineer (Performance Engineer)
 
 ## Education
 * 09/2016 – 04/2018 **State University of Management, Russia** Master of Finance and Credit
-* 09/2008 – 06/2013 **South Federal University, Rostov-on-Don, Russia** Master of Science in Linguistics and Pedagogy 
+* 09/2008 – 06/2013 **South Federal University, Rostov-on-Don, Russia** Master of Science in Linguistics and Pedagogy
 
 ## Languages
 * Russian - native
-* English - advanced 
-
-
-
-
-
+* English - advanced
